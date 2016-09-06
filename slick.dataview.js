@@ -1168,7 +1168,7 @@
 
     this.accumulate = function (item) {
       var val = item[this.field_];
-      if (val !== null && val !== "" && val !== NaN) {
+      if (val !== null && val !== "" && val !== NaN && val !== undefined) {
         this.sum_ += parseFloat(val);
       }
     };
