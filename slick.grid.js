@@ -942,7 +942,6 @@ if (typeof Slick === "undefined") {
     }
 
     function createColumnGroupHeaders() {
-      var columnsLength = 0;
       var frozenColumnsValid = false;
 
       if (!treeColumns.hasDepth())
