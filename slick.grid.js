@@ -952,6 +952,7 @@ if (typeof Slick === "undefined") {
 
         $groupHeadersL[index].empty();
         $groupHeadersR[index].empty();
+        var columnsLength = 0;
 
         var groupColumns = treeColumns.getColumnsInDepth(index);
 
